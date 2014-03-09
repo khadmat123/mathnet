@@ -73,10 +73,10 @@
 
             <Button
                 android:id="@+id/buttontemp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/ButtonTemp"
-                android:onClick="Enter" />
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+                android:onClick="Enter"
+                android:text="@string/ButtonTemp" />
 
         </LinearLayout>
     </ScrollView>
