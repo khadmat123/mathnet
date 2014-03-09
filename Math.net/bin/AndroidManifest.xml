@@ -31,6 +31,10 @@
             android:name="com.example.math.net.FirstActivity"
             android:label="@string/title_activity_first" >
         </activity>
+        <activity
+            android:name="com.example.math.net.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
     </application>
 
 </manifest>

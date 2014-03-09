@@ -8,32 +8,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".FirstActivity" >
 
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/hello_world1" />
+        android:layout_marginBottom="40dp"
+        android:onClick="go"
+        android:text="@string/buttonTask" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
         android:text="@string/hello_world2"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
-        android:id="@+id/button1"
+    <EditText
+        android:id="@+id/editText1"
+        android:hint="@string/in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp"
-        android:text="@string/buttonStart" 
-        android:onClick="go"/>
+        android:layout_marginTop="100dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
